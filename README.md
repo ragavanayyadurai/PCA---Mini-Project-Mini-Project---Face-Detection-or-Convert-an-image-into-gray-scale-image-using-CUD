@@ -1,5 +1,4 @@
-**
-**# Convert Image to Grayscale image using CUDA 
+# Convert Image to Grayscale image using CUDA 
 
 ## AIM:
 
@@ -17,10 +16,8 @@ The aim of this project is to demonstrate how to convert an image to grayscale u
 
 ## Program:
 ```
-  PROGRAM DEVELOPED BY: Ragavendran A
-  REGISTER NUMBER:212222230114
-```
-```
+DEVELOPED BY: Ragavendran A
+REGISTER NUMBER: 212222230114
 
 #include <stdio.h>
 #include <string>
@@ -137,10 +134,12 @@ void outputImage(const std::string& output_file, unsigned char* grey_image, int 
 ## OUTPUT:
 
 ### Input Image
-![feather](https://github.com/Dineshkumar021617/PCA---Mini-Project-Mini-Project---Face-Detection-or-Convert-an-image-into-gray-scale-image-using-CUD/assets/75234807/ee5e33a7-af1d-4259-9ef7-4034663efa19)
+
+<img width="186" alt="image" src="https://github.com/Harshini1331/PCA---Mini-Project-Mini-Project---Face-Detection-or-Convert-an-image-into-gray-scale-image-using-CUD/assets/75235554/dcdd2377-9a1b-4a18-b33e-382a887e53b0">
 
 ### Grayscale Image
-![featherbw](https://github.com/Dineshkumar021617/PCA---Mini-Project-Mini-Project---Face-Detection-or-Convert-an-image-into-gray-scale-image-using-CUD/assets/75234807/0c22c8e6-a4e3-4145-b99a-bda14843f782)
+
+<img width="182" alt="image" src="https://github.com/Harshini1331/PCA---Mini-Project-Mini-Project---Face-Detection-or-Convert-an-image-into-gray-scale-image-using-CUD/assets/75235554/a5b2fd3e-1cc4-4e72-8f5d-722e2b17f0df">
 
 ## Result:
 The CUDA program successfully converts the input image to grayscale using the GPU. The resulting grayscale image is saved as an output file. This example demonstrates the power of GPU parallelism in accelerating image processing tasks.
